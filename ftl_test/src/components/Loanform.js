@@ -32,11 +32,11 @@ class Loanform extends Component {
     onSubmit = () => {
         if (this.state.input < 500 || this.state.input > 5000) {
             window.alert('Please enter loan amount within the given range')
-            return this.setState({ input: '' , duration:''})
+            return this.setState({ input: '', duration: '' })
         }
         else if (this.state.duration < 6 || this.state.duration > 24) {
             window.alert('Please enter the no of months within the given range')
-            return this.setState({ duration: '', input:'' })
+            return this.setState({ duration: '', input: '' })
         }
         fetch(`https://ftl-frontend-test.herokuapp.com/interest?amount=${this.state.input}&numMonths=${this.state.duration}`, {
             mode: 'cors',
@@ -65,7 +65,7 @@ class Loanform extends Component {
                         </div>
                         <div className="form-group row">
                             <div className='col-6'>
-                                <label htmlFor="loanduration">Enter Duration (in months)</label>
+                                <label htmlFor="loanduration">Enter Duration (between 6 - 24 months)</label>
                                 <input type="number" className="form-control" value={this.state.duration} id="loanduration" onChange={this.OnDurationChange} />
                             </div>
                             <div className="slidecontainer mt-2 p-3 col-6">
@@ -74,7 +74,7 @@ class Loanform extends Component {
                                 <p className=""> Months: {this.state.duration} </p>
                             </div>
                         </div>
-                    <button type="button" onClick={this.onSubmit} className="btn btn-danger animated fadeInDown delay-2s mx-auto mb-2 w-75">Get Quote</button>
+                        <button type="button" onClick={this.onSubmit} className="btn btn-danger animated fadeInDown delay-2s mx-auto mb-2 w-75">Get Quote</button>
                     </div>
                 </div>
                 <div className='container'>

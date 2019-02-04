@@ -20,9 +20,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <Particles params={particleOptions} className='particles' />
+        <Particles params={particleOptions} className='particles' />
         <div className='m-2 animated bounceInRight'>
-          <img src={statistics} className='border rounded-circle bg-light p-2 m-2' alt='logo' width='80px' height='80px'/>
+          <img src={statistics} className='border rounded-circle bg-light p-2 m-2' alt='logo' width='80px' height='80px' />
         </div>
         <div className='animated bounceInLeft delay-1s'>
           <h1 className='text-light'>Loan Calculator</h1>
