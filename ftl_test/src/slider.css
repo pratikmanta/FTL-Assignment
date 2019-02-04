@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+
+.form-box {
+  background: rgba(102,102,102,1);
+  background: -moz-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(117,117,117,1) 9%, rgba(135,135,135,1) 26%, rgba(94,94,94,1) 31%, rgba(38,38,38,1) 43%, rgba(56,56,56,1) 56%, rgba(23,23,23,1) 60%, rgba(56,56,56,1) 77%, rgba(56,56,56,1) 83%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(102,102,102,1)), color-stop(9%, rgba(117,117,117,1)), color-stop(26%, rgba(135,135,135,1)), color-stop(31%, rgba(94,94,94,1)), color-stop(43%, rgba(38,38,38,1)), color-stop(56%, rgba(56,56,56,1)), color-stop(60%, rgba(23,23,23,1)), color-stop(77%, rgba(56,56,56,1)), color-stop(83%, rgba(56,56,56,1)));
+  background: -webkit-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(117,117,117,1) 9%, rgba(135,135,135,1) 26%, rgba(94,94,94,1) 31%, rgba(38,38,38,1) 43%, rgba(56,56,56,1) 56%, rgba(23,23,23,1) 60%, rgba(56,56,56,1) 77%, rgba(56,56,56,1) 83%);
+  background: -o-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(117,117,117,1) 9%, rgba(135,135,135,1) 26%, rgba(94,94,94,1) 31%, rgba(38,38,38,1) 43%, rgba(56,56,56,1) 56%, rgba(23,23,23,1) 60%, rgba(56,56,56,1) 77%, rgba(56,56,56,1) 83%);
+  background: -ms-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(117,117,117,1) 9%, rgba(135,135,135,1) 26%, rgba(94,94,94,1) 31%, rgba(38,38,38,1) 43%, rgba(56,56,56,1) 56%, rgba(23,23,23,1) 60%, rgba(56,56,56,1) 77%, rgba(56,56,56,1) 83%);
+  background: linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(117,117,117,1) 9%, rgba(135,135,135,1) 26%, rgba(94,94,94,1) 31%, rgba(38,38,38,1) 43%, rgba(56,56,56,1) 56%, rgba(23,23,23,1) 60%, rgba(56,56,56,1) 77%, rgba(56,56,56,1) 83%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#383838', GradientType=1 );
+  font-size: 1em;
+  box-shadow: -1px 8px 2px 4px rgba(0,0,0,0.75);
+  font-weight: 700;
+}
+
+.slidecontainer {
+    width: 100%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+
+h4 {
+  font-family: 'Black Ops One', cursive;
+  }
+.btn {
+  cursor: pointer;
+  width: 40%;
+  height: 7%;
+  margin: 10px 60px;
+  font-size: 1.3em;
+  transition:all ,1s; 
+  }
+
+.btn:hover {
+    background-color:white;
+    transform: scale(1.4);
+    color:black; 
+    box-shadow: 30px 30px 25px -9px rgba(0,0,0,0.75);
+  } 
